@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    android:background="@color/app_color"
+    android:gravity="center_vertical">
+
+    <ImageView
+        android:layout_width="24dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="12dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_logo"
+        tools:ignore="ContentDescription" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/edit_text"
+        android:layout_width="0dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="12dp"
+        android:layout_weight="1"
+        android:background="@drawable/shape_ffffff_4dp_bg"
+        android:drawableStart="@drawable/search_bar_icon"
+        android:drawablePadding="5dp"
+        android:gravity="center_vertical"
+        android:hint="@string/search_hint"
+        android:lines="1"
+        android:maxLength="20"
+        android:paddingStart="6dp"
+        android:paddingEnd="6dp"
+        android:textColor="#aaaaaa"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/search_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingStart="15dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="15dp"
+        android:paddingBottom="10dp"
+        android:text="@string/sure"
+        android:textColor="@color/color_222"
+        android:textSize="14sp" />
+</LinearLayout>

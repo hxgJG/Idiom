@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">成语</string>
+    <string name="play_idiom">玩转成语</string>
+    <string name="today_play_idiom">今日玩转成语：</string>
+    <string name="random_recommend">随机推荐</string>
+    <string name="left_book_mark">【</string>
+    <string name="explain">释义】：</string>
+    <string name="from">出处】：</string>
+    <string name="example">例子】：</string>
+    <string name="idiom_encyclopedia">成语大全 </string>
+
+    <string name="search_hint">请输入成语或拼音</string>
+    <string name="cancel">取消</string>
+    <string name="sure">确定</string>
+    <string name="retry">重试</string>
+</resources>
